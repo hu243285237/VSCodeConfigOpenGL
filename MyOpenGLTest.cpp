@@ -4,35 +4,35 @@ int main(void)
 {
 	GLFWwindow * window;
 
-	//³õÊ¼»¯glfw¿â
+	//åˆå§‹åŒ–glfwåº“
 	if (!glfwInit())
 	{
 		return -1;
 	}
 
-	//´´½¨Ò»¸ö´°¿ÚºÍËüµÄOpenGLÉÏÏÂÎÄ
+	//åˆ›å»ºä¸€ä¸ªçª—å£å’Œå®ƒçš„OpenGLä¸Šä¸‹æ–‡
 	window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
 
 	if (!window)
 	{
-		//Ã»ÓĞ´´½¨Ôò»á·µ»ØNULL
+		//æ²¡æœ‰åˆ›å»ºåˆ™ä¼šè¿”å›NULL
 		glfwTerminate();
 		return -1;
 	}
 
-	//ÉèÖÃµ±Ç°µÄ´°¿ÚÉÏÏÂÎÄ
+	//è®¾ç½®å½“å‰çš„çª—å£ä¸Šä¸‹æ–‡
 	glfwMakeContextCurrent(window);
 
-	//Ñ­»·,Ö±µ½ÓÃ»§¹Ø±Õ´°¿Ú
+	//å¾ªç¯,ç›´åˆ°ç”¨æˆ·å…³é—­çª—å£
 	while (!glfwWindowShouldClose(window))
 	{
-		//ÔÚÕâÀï×öäÖÈ¾
+		//åœ¨è¿™é‡Œåšæ¸²æŸ“
 		glClear(GL_COLOR_BUFFER_BIT);
 
-		//½»»»»º³åÇø£¬¼´ÔÚwindowÉÏ¸üĞÂÄÚÈİ
+		//äº¤æ¢ç¼“å†²åŒºï¼Œå³åœ¨windowä¸Šæ›´æ–°å†…å®¹
 		glfwSwapBuffers(window);
 
-		//ÂÖÑ¯ÊÂ¼ş
+		//è½®è¯¢äº‹ä»¶
 		glfwPollEvents();
 	}
 
