@@ -10,6 +10,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
+            "compilerPath": "D:\\MinGW\\bin\\g++.exe",
+            "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64"
         }
     ],
