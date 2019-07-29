@@ -2,7 +2,7 @@
 
 ### 第一步：
 
-首先配置C++环境，已配置的可跳过这一步，没配置的点下面链接
+首先配置C++环境，已配置的可跳过这一步，没配置的点下面链接：
 
 https://github.com/hu243285237/Cpp_Study/tree/master/VSCodeConfigCpp
 
@@ -34,7 +34,7 @@ https://www.glfw.org/download.html
 
 ### 第五步：
 
-必要的文件我们都有了，这时候创建一个main.cpp文件，就可以使用GLFW和GL的库了，可以参考Demo_1的main.cpp（在外面一层目录）。
+必要的文件我们都有了，这时候创建一个main.cpp文件，就可以使用GLFW和GL的库来编写OpenGL代码了，代码案例可以参考Demo_1的main.cpp（在外面一层目录）。
 
 ### 第六步：
 
