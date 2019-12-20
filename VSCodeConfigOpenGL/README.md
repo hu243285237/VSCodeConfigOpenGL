@@ -1,4 +1,4 @@
-# VSCode配置OpenGL工程
+﻿# VSCode配置OpenGL工程
 
 ### 第一步：
 
@@ -20,7 +20,7 @@ https://www.glfw.org/download.html
 
 ### 第三步：
 
-现在新建一个vscode工程（就是一个文件夹），在.vscode文件夹创建一个c_cpp_properties.json，还是用之前C++配置的，直接拷贝过来就好。
+现在新建一个vscode工程（就是一个文件夹），在.vscode文件夹创建一个c_cpp_properties.json，还是用之前C++配置的，直接拷贝过来就好。（经测试，也可以省略这一步，不需要创建json）
 
 ![ScreenShot](https://github.com/hu243285237/OpenGL_Study/blob/master/VSCodeConfigOpenGL/ScreenShot/ScreenShot02.png)
 
