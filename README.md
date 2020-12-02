@@ -6,8 +6,6 @@
 
 https://github.com/hu243285237/Cpp_Study/tree/master/VSCodeConfigCpp
 
----
-
 ### 第二步：
 
 构建我们开发OpenGL的工具，我这里使用的GLFW_3.2.1，可以到它的官网下载：
@@ -20,15 +18,11 @@ https://www.glfw.org/download.html
 
 ![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot01.png)
 
----
-
 ### 第三步：
 
 现在新建一个vscode工程（就是一个文件夹），在.vscode文件夹创建一个c_cpp_properties.json，还是用之前C++配置的，直接拷贝过来就好。（经测试，也可以省略这一步，不需要创建json）
 
 ![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot02.png)
-
----
 
 ### 第四步：
 
@@ -38,13 +32,9 @@ https://www.glfw.org/download.html
 
 ![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot03.png)
 
----
-
 ### 第五步：
 
 必要的文件我们都有了，这时候创建一个main.cpp文件，就可以使用GLFW和GL的库来编写OpenGL代码了。
-
----
 
 ### 第六步：
 
