@@ -2,7 +2,7 @@
 
 ### 第一步：
 
-首先配置C++环境，已配置的可跳过这一步，没配置的点下面链接：
+首先配置C++环境，已配置的可跳过这一步，没配置的可以点下面链接：
 
 https://github.com/hu243285237/Cpp_Study/tree/master/VSCodeConfigCpp
 
@@ -49,7 +49,3 @@ g++ main.cpp -o test libglfw3dll.a libopengl32.a
 ![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot04.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot05.png)
-
-### 第七步：
-
-Demo_1（在外面一层目录）就是以上的实现工程，供参考。
