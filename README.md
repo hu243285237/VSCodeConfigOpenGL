@@ -16,15 +16,13 @@ https://www.glfw.org/download.html
 
 （SourcePackage指的是源文件，下载完之后还需要使用CMake之类的工具来构建GLFW，如果你不确定你电脑的环境能否支持Windows pre-compiled binaries里已经构建好的GLFW，可以下载SourcePackage，但流程也会相对复杂，这里不详细说明）
 
-![ScreenShot](https://github.com/hu243285237/
-VSCodeConfigOpenGL/blob/master/images/screenshot01.png)
+![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot01.png)
 
 ### 第三步：
 
 现在新建一个vscode工程（就是一个文件夹），在.vscode文件夹创建一个c_cpp_properties.json，还是用之前C++配置的，直接拷贝过来就好。（经测试，也可以省略这一步，不需要创建json）
 
-![ScreenShot](https://github.com/hu243285237/
-VSCodeConfigOpenGL/blob/master/images/screenshot02.png)
+![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot02.png)
 
 ### 第四步：
 
@@ -32,8 +30,7 @@ VSCodeConfigOpenGL/blob/master/images/screenshot02.png)
 
 然后再找到MinGW的安装目录，将lib文件夹里的libopengl32.a也拷贝进工程。
 
-![ScreenShot](https://github.com/hu243285237/
-VSCodeConfigOpenGL/blob/master/images/screenshot03.png)
+![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot03.png)
 
 ### 第五步：
 
@@ -49,11 +46,9 @@ g++ main.cpp -o test libglfw3dll.a libopengl32.a
 
 就可以看到绘制出来的窗口了
 
-![ScreenShot](https://github.com/hu243285237/
-VSCodeConfigOpenGL/blob/master/images/screenshot04.png)
+![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot04.png)
 
-![ScreenShot](https://github.com/hu243285237/
-VSCodeConfigOpenGL/blob/master/images/screenshot05.png)
+![ScreenShot](https://raw.githubusercontent.com/hu243285237/VSCodeConfigOpenGL/master/images/screenshot05.png)
 
 ### 第七步：
 
